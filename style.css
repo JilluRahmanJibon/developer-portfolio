@@ -143,3 +143,55 @@ header {
 }
 
 /* home end */
+/* dream area start */
+.dream-area {
+    background-image: url(images/dream-bg.png);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+
+}
+
+.dream-img>img {
+    width: 90%;
+}
+
+.dream-content {
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.dream-content h1 {
+    font-size: 35px;
+    padding: 30px 0;
+}
+
+.dream-content h3 {
+    padding-bottom: 20px;
+
+}
+
+.dream-content p {
+    color: rgb(91, 87, 87);
+    padding-bottom: 14px;
+}
+
+.dream-btn {
+    background-color: coral;
+    padding: 20px 50px;
+    display: inline-block;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: .3s;
+}
+
+.dream-btn:hover {
+    background-color: chocolate;
+}
+
+.dream-content a {
+    color: cornsilk;
+}
+
+/* dream area end */
